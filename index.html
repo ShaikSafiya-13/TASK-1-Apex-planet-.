@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 300px;
+            height: auto;
+        }
+
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Web Development Basics</h1>
+        <p>Learning HTML, CSS, and JavaScript step by step.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About HTML</h2>
+            <p>HTML (HyperText Markup Language) is used to structure web pages.</p>
+            <img src="https://via.placeholder.com/300" alt="Sample Image">
+            <p>Learn more about HTML at 
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
+            </p>
+        </section>
+
+        <button onclick="showMessage()">Click Me</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Web Development Basics</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Hello! You clicked the button!");
+        }
+    </script>
+</body>
+</html>
